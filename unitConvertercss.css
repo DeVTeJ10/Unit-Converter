@@ -1,17 +1,27 @@
+.mains{
+    margin: 0px
+}
 .original{
     background-color: #6943FF;
-    width: 100%;
+    height: 285px;
     padding-top: 3px;
     padding-bottom: 20px;
 }
 
 .titular{
-@@ -17,9 +19,11 @@
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#figure{
+    margin-left: auto;
+    margin-right: auto;
     width: 53px;
     height: 50px;
     justify-content: center; 
-    padding-left: 10px;
-    padding-right: 10px;
     padding-left: 20px;
     padding-right: 20px;
     display: block;
@@ -20,54 +30,50 @@
 }
 
 #converter {
-@@ -28,9 +32,11 @@
+    display: block;
+    justify-content: center;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: larger;
     padding-left: 17px;
     padding-right: 17px;
     font-weight: normal;
     border-radius: 5px solid;
-
 }
 
-.length{
-@@ -49,6 +55,35 @@
 .parameters{
     display: block;
     justify-content: center;
-    background: blueviole 
     text-align: center;
     background-color: #1F2937;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 200px;
 }
 
 #length1{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 10px;
     background-color: #273549;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 1px
-
+    margin-top: 5px;
+    color: white;
 }
 
 #volume{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 10px;
     background-color: #273549; 
     margin-left: 25px;
     margin-right: 25px;
+    color: white;
 }
 
 #mass{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 10px;
     background-color: #273549;
     margin-left: 25px;
     margin-right: 25px;
+    color: white;
 }
