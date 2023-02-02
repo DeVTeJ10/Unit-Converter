@@ -1,8 +1,12 @@
+.mains{
+    margin: 0px;
+    height: 729px;
+}
 .original{
     background-color: #6943FF;
-    width: 100%;
     padding-top: 3px;
     padding-bottom: 20px;
+    height: 285px;
 }
 
 .titular{
@@ -13,7 +17,7 @@
     color: white;
 }
 
-#number{
+#figure{
     margin-left: auto;
     margin-right: auto;
     width: 53px;
@@ -39,18 +43,6 @@
     
 }
 
-.length{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    background: #273549;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    color: white
-    
-}
 
 .parameters{
     display: block;
@@ -58,32 +50,33 @@
     text-align: center;
     background-color: #1F2937;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 200px;
 }
 
 #length1{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 10px;
     background-color: #273549;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 1px
-    
+    margin-top: 1px;
+    color: white;
 }
 
 #volume{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 10px;
     background-color: #273549; 
     margin-left: 25px;
     margin-right: 25px;
+    color: white;
 }
 
 #mass{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 10px;
     background-color: #273549;
     margin-left: 25px;
     margin-right: 25px;
+    color: white;
 }
-
