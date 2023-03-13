@@ -1,3 +1,8 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mains{
     display: block;
     text-align: center;
